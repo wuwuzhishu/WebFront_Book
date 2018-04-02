@@ -157,7 +157,12 @@ a{
 
 ### 目标
 
+* 完成首页header和banner部分
+
 ### 知识点
+
+* 两列布局（HTML标记：h1、p、input，CSS重点：伪类选择符、border-radius）
+* 四列布局（通过ul-&gt;li来实现）
 
 ### 代码
 
@@ -303,6 +308,175 @@ CSS
 ```
 
 # 第3次
+
+目标
+
+* 完成首页优势和商店两个部分
+
+知识点
+
+* 三列布局（不用ul-li形式，用div设置float形式）
+* 选项卡（此部分内容选项卡的功能需要后序学了javascript才能完成时限，目前只实现布局）
+
+代码
+
+HTML新增部分
+
+```
+<html>
+    <head>
+        <title>轻松批</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- 包裹层 -->
+        <div id="wrap">
+            .......
+            <!-- 优势部分 -->
+            <div id="youshi">
+                <div id="content">
+                    <div id="youshi_header">
+                        <h1>三大优势<span class="color_red">祝你生意腾飞</span></h1>
+                        <p>我们所做的一切，只为你的生意更好！</p>
+                    </div>
+                    <div id="youshi_body">
+                        <div id="youshi_box">
+                            <img src="img/p6.png" alt="">
+                            <h3 class="color_red">你的独立网商</h3>
+                            <p>即刻拥有你的专属网商平台，扫码访问让你的店铺捧在他的手心里</p>
+                        </div>
+                        <div id="youshi_box">
+                            <img src="img/p7.png" alt="">
+                            <h3 class="color_red">你的独立网商</h3>
+                            <p>即刻拥有你的专属网商平台，扫码访问让你的店铺捧在他的手心里</p>
+                        </div>
+                        <div id="youshi_box">
+                            <img src="img/p8.png" alt="">
+                            <h3 class="color_red">你的独立网商</h3>
+                            <p>即刻拥有你的专属网商平台，扫码访问让你的店铺捧在他的手心里</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- shop部分 -->
+            <div id="shop">
+                <div id="content">
+                    <div id="shop_header">
+                        <span class="active">云商店</span>
+                        <span>进销存</span>
+                        <span>商米v1</span>
+                    </div>
+                    <div id="shop_body">
+                        <div id="shop_body_left">
+                            <h1>你独有的网店<span class="color_red">-轻松批云商店</span></h1>
+                            <p>轻松批展示店专为批发商进行开发，让您拥有独立的、安全的展示空间，所有数据直接在APP上即可进行编辑，提供全面的展示、交易、售后服务，为您的批发事业插上互联网的翅膀！</p>
+                            <p class="font_weight">无限容量空间<br>一键生成二维码<br> 免费公众号服务</p>
+                            <button>进入示范店铺</button>                            
+                        </div>
+                        <img src="img/p9.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
+```
+
+CS新增部分
+
+```
+.......
+/*优势部分*/
+#youshi{
+    background-color: #e2e2e8;
+}
+#youshi_header{
+    text-align: center;
+    margin: 70px 0;
+}
+.color_red{
+    color: #e46e6e;
+}
+#youshi_body{
+    margin-bottom: 100px;
+    width: 100%;
+    overflow: hidden;/*清除youshi_body里面元素浮动对后序元素的影响*/
+}
+#youshi_box{
+    float: left;
+    width: 23%;
+    text-align: center;
+    border: solid 1px #f15252;
+    padding: 30px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+#youshi_box img{
+    height: 100px;
+}
+
+/*商务部分*/
+#shop_header{
+    text-align: center;
+    margin: 50px 0;
+}
+#shop_header span{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d06d6d;
+    margin: 0 20px;
+    border-radius: 20px;
+    color: white;
+}
+#shop_header span.active{
+    background-color: #978686;
+}
+#shop_body{
+    margin-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+#shop_body_left{
+    float: left;
+    width: 50%;
+}
+#shop_body img{
+    float: right;    
+}
+#shop_body_left h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#shop_body_left p{
+    margin-bottom: 30px;
+    color: #827b7b;
+}
+#shop_body_left p.font_weight{
+    font-weight: 900;
+}
+#shop_body_left button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d06d6d;
+    border: solid 1px #d06d6d;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+#shop_body_left button:hover{
+    background-color: transparent;
+    color: #d06d6d;
+}
+```
+
+# 
 
 # 第4次
 
