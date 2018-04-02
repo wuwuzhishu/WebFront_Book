@@ -22,6 +22,7 @@
 
 * 利用浮动来实现多列布局的方法
 * 清除浮动的方法（clear:both或width以及overflow相结合）
+* CSS overflow属性
 
 示例代码
 
