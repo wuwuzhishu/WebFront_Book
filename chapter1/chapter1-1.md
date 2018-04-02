@@ -20,6 +20,9 @@
 
 参考网址：[http://www.w3school.com.cn/css/css\_positioning\_floating.asp](http://www.w3school.com.cn/css/css_positioning_floating.asp)
 
+* 利用浮动来实现多列布局的方法
+* 清除浮动的方法（clear:both或width以及overflow相结合）
+
 示例代码
 
 ```
@@ -34,7 +37,7 @@
             height: 100px;
             background-color: red;
             float: left;/*float浮动*/
-            
+
         }
          #box2{
             width: 33%;
