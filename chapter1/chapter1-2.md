@@ -494,34 +494,33 @@ CSS新增部分
 
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />   
-    <title>Page Title</title>    
+    <meta charset="UTF-8">   
+    <title>Document</title>
 </head>
 <body>
     <form action="">
-        <label for="youxiang">邮箱：</label>
-        <input type="email" name="" id="wenben" placeholder="提示语"><br>        
-        <label for="wenben">文本框：</label>
-        <input type="text" name="yonghu" id="youxiang"><br>
-        密码框：<input type="password" name="mima"><br>
-        单选框：<input type="radio" name="sex" id="">男
-                <input type="radio" name="sex" id="">女<br>
-        多选框：<input type="checkbox" name="aihao" id="">足球
+        <label for="yh">文本框：</label><input type="text" name="" id="yh" placeholder="昵称"><br>
+        <label for="mm">密码框：</label><input type="password" name="" id="mm"><br>
+        性别：<input type="radio" name="sex" id="">男<input type="radio" name="sex" id="">女<br>
+        爱好：<input type="checkbox" name="aihao" id="">足球
                 <input type="checkbox" name="aihao" id="">蓝球
                 <input type="checkbox" name="aihao" id="">排球<br>
-        下拉列表：
-        <select name="year" id="">
+        生日：
+        <select name="birth" id="">
             <option value="1">1991年</option>
             <option value="2">1992年</option>
             <option value="3">1993年</option>
             <option value="4">1994年</option>
-        </select>
-        <input type="button" value="注册" onclick="">
+        </select><br>
+        <input type="date" name="" id=""><br>
+        <input type="email" name="" id="" placeholder="邮箱"><br>
+        <input type="file" name="" id=""><br>        
+        <input type="tel" name="" id=""><br>
         <input type="submit" value="提交">
         <input type="reset" value="重置">
-        
+        <input type="button" value="取消" onclick="">
     </form>
 </body>
 </html>
