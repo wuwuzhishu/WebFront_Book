@@ -485,7 +485,7 @@ CSS新增部分
 
 ### 知识点
 
-* css属性：text-indent
+* css属性：text-indent，分割线
 * 表单
 
 ### 代码
