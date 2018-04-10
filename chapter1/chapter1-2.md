@@ -526,6 +526,31 @@ CSS新增部分
 </html>
 ```
 
+首页帮助部分HTML代码
+
+```
+<!-- 帮助部分 -->
+            <div id="help">
+                <div id="content">
+                    <h1>我们如何帮助客户成功</h1>
+                    <div id="help_body">
+                        <img src="img/p14.png" alt="">
+                        <div id="help_body_right">
+                            <p>轻松批让我不再像以前一样每天都要守在店里观察客户情况，在家里打开手机就可以看到店铺整体的业务情况，让我有更多时间在面料、工厂和款式上下功夫，自带的销量库存报告让我可以很准确的进货下单</p>
+                            <p>并且轻松批提供的网上店铺，更方便我的客户看新款，我也不用发微信来骚扰客户，现在的老客户越来越多！用轻松批，说老实话并没有轻松多少，但是生意变好了很多！继续加油！！！</p>
+                            <div id="help_right_box">
+                                <div id="help_right_box_left">
+                                    <h3>特朗普</h3>
+                                    <p class="help_p_teshu">味道档口老板，美衣城C071档</p>
+                                </div>
+                                <span>WeiDao</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+```
+
 # 第5次
 
 ### 目标
