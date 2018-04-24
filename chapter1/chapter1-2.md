@@ -551,6 +551,68 @@ CSS新增部分
             </div>
 ```
 
+首页帮助部分CSS代码
+
+```
+/* 帮助部分 */
+#help{
+    width: 100%;
+    background-color: #dad6d6;
+}
+#help h1{
+    text-align: center;
+    color: #bf2f2f;
+    font-weight: 100;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: solid 1px #8c8787;
+}
+#help_body{
+    width: 100%;
+    overflow: hidden;/*由于里面的内容设置了浮动，所以要清楚浮动对后序元素的影响*/
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+}
+#help_body img{
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-left: 50px;
+}
+#help_body_right{
+    width: 700px;
+    float: right;
+    margin-right: 50px;
+}
+#help_body_right p{
+    font-size: 14px;
+    color: #736e6e;
+    text-indent: 2em;
+}
+#help_right_box{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#help_right_box_left{
+    float: left;
+}
+#help_right_box span{
+    float: right;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-right: 50px;
+    font-size: 30px;
+}
+#help_right_box_left h3{
+    color: #d65e5e;
+}
+#help_body_right p.help_p_teshu{
+    color: #d65e5e;
+    text-indent: 0em;
+}
+```
+
 # 第5次
 
 ### 目标
@@ -563,6 +625,213 @@ CSS新增部分
 * 尾部四列布局（ul-li）
 
 ### 代码
+
+首页表单部分HTML代码
+
+```
+<!-- 表单部分 -->
+            <div id="form">
+                <div id="content">
+                    <div id="form_left">
+                        <h1>留下您的电话，我们第一时间联系您</h1>
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="姓名">
+                            <input type="tel" name="" id="" placeholder="电话号码"><br>
+                            <input type="email" name="" id="youxiang" placeholder="邮箱"><br>
+                            <textarea name="" id="" rows="10" placeholder="内容"></textarea><br>
+                            <input type="submit" value="提交" class="submit">
+                        </form>
+                        <span>温馨提示：可以在内容中填写您的店铺地址，在开通业务的地区，我们提供上门服务！</span>
+                    </div>
+                    <img src="img/p12.png" alt="" class="float_right">
+                </div>
+            </div>
+```
+
+首页表单部分CSS代码
+
+```
+/* 表单部分 */
+#form{
+    width: 100%;
+    background-color: white;
+    padding: 50px 0;
+}
+#form_left{
+    float: left;
+}
+#form_left h1{
+    color: red;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+#form_left input{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#form_left input#youxiang{
+    width: 505px;
+}
+#form_left textarea{
+    width: 505px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+#form_left input.submit{
+    background-color: red;
+    border: solid 1px red;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+}
+#form_left input.submit:hover{
+    background-color: palevioletred;
+}
+#form_left span{
+    color:#dad6d6;
+    font-size: 14px;
+}
+```
+
+首页footer部分和底部部分HMTL代码
+
+```
+<!-- footer部分 -->
+            <div id="footer">
+                <div id="content">
+                    <span>轻松批，让批发更轻松！！！</span>
+                    <input type="button" value="免费试用版本">
+                </div>
+            </div>
+            <!-- 底部部分 -->
+            <div id="bottom">
+                <div id="content">
+                    <ul>
+                        <li>
+                            <h3>关于我们</h3>
+                            <p>轻松批是广州市晶焰网络科技有限公司专为批发行业开发的成套批发管理工具，我们致力于解决批发行业的各种痛点，并为客户提供更好和更优质的产品。</p>
+                        </li>
+                        <li>
+                            <h3>合作伙伴</h3>
+                            <p class="color_green">阿里云--阿里巴巴网络服务平台</p>
+                            <p>商米--小米控股商用设备提供商</p>
+                        </li>
+                        <li>
+                            <h3>联系方式</h3>
+                            <p>
+                                <img src="img/1-email.png" alt="">
+                                <span>qsp@baokuant.com</span>
+                            </p>                            
+                            <p>
+                                <img src="img/1-phone.png" alt="">
+                                <span>+86 13826027418</span>
+                            </p>
+                            <p>
+                                <img src="img/1-address.png" alt="">
+                                <span>广州市越秀区人民南路88号肯德基二楼</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h3>帮助与支持</h3>
+                            <p>
+                                <img src="img/1-list.png" alt="">
+                                <span>使用帮助</span>
+                            </p>
+                            <p>
+                                <img src="img/1-phone.png" alt="">
+                                <span>+86 13826027418</span>
+                            </p>
+                            <p>
+                                <img src="img/1-address.png" alt="">
+                                <span>广州市越秀区人民南路88号肯德基二楼</span>
+                            </p> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+```
+
+首页footer部分和底部部分CSS代码
+
+```
+/* footer部分 */
+#footer{
+    background-color: #000000;
+    padding: 30px 0;
+    color: white;
+}
+#footer span{
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    color: #dad6d6;
+    font-style: italic;
+}
+#footer input{
+    float: right;
+    background-color:#D7551A;
+    width: 200px;
+    height: 60px;
+    border: solid 1px #D7551A;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+#footer input:hover{
+    background-color: transparent;
+}
+/* 底部部分 */
+#bottom{
+    width: 100%;
+    background-color: #333435;
+    color: white;
+    padding: 40px 0;
+}
+#bottom ul{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+#bottom ul li{
+    float: left;
+    width: 23%;
+    margin-right: 20px;
+}
+#bottom ul li h3{
+    color: #c3c0cf;
+    font-weight: 100;
+    /* font-size: 24px; */
+    margin-bottom: 20px;
+}
+#bottom ul li p{
+    color: #c3c0c0;
+    font-size: 14px;
+}
+#bottom ul li span,p{
+    /* display: block; */
+    color: #c3c0c0;
+    font-size: 14px;
+}
+#bottom ul li p.color_green{
+    color: green;
+    margin-bottom: 20px;
+}
+
+#bottom ul li img{
+    height: 25px;
+    float: left;
+}
+#bottom ul li p span{
+    display: inline-block;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+```
+
+
 
 
 
