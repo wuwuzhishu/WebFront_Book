@@ -4,7 +4,7 @@
 
 > 此项目为教学案例，通过此项目让学生学习如何利用BootStrap构建响应式网站
 >
-> 优达学城网址：
+> 优达学城网址：[https://cn.udacity.com/](https://cn.udacity.com/)
 
 
 
