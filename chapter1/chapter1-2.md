@@ -1,4 +1,6 @@
-# 第1次
+# 首页页面说明
+
+## 第1次
 
 ### 目标
 
@@ -16,7 +18,7 @@
 
 HTML
 
-```
+``` html
 <html>
     <head>
         <title>轻松批</title>
@@ -61,7 +63,7 @@ HTML
 
 CSS
 
-```
+``` css
 /* *是一个匹配符，匹配所有的选择符 */
 *{
     margin: 0px;
@@ -153,7 +155,7 @@ a{
 }
 ```
 
-# 第2次
+## 第2次
 
 ### 目标
 
@@ -168,7 +170,7 @@ a{
 
 HTML
 
-```
+``` html
 <html>
     <head>
         <title>轻松批</title>
@@ -229,7 +231,7 @@ HTML
                         </li>
                     </ul>
                 </div>
-            </div>            
+            </div>
         </div>
     </body>
 </html>
@@ -237,7 +239,7 @@ HTML
 
 CSS
 
-```
+``` css
 ......
 #header{
     width: 100%;
@@ -307,7 +309,7 @@ CSS
 }
 ```
 
-# 第3次
+## 第3次
 
 目标
 
@@ -322,7 +324,7 @@ CSS
 
 HTML新增部分
 
-```
+``` html
 <html>
     <head>
         <title>轻松批</title>
@@ -387,7 +389,7 @@ HTML新增部分
 
 CSS新增部分
 
-```
+``` css
 .......
 /*优势部分*/
 #youshi{
@@ -477,7 +479,7 @@ CSS新增部分
 }
 ```
 
-# 第4次
+## 第4次
 
 ### 目标
 
@@ -492,7 +494,7 @@ CSS新增部分
 
 表单HTML代码
 
-```
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -528,7 +530,7 @@ CSS新增部分
 
 首页帮助部分HTML代码
 
-```
+``` html
 <!-- 帮助部分 -->
             <div id="help">
                 <div id="content">
@@ -553,7 +555,7 @@ CSS新增部分
 
 首页帮助部分CSS代码
 
-```
+``` css
 /* 帮助部分 */
 #help{
     width: 100%;
@@ -613,7 +615,7 @@ CSS新增部分
 }
 ```
 
-# 第5次
+## 第5次
 
 ### 目标
 
@@ -628,7 +630,7 @@ CSS新增部分
 
 首页表单部分HTML代码
 
-```
+``` html
 <!-- 表单部分 -->
             <div id="form">
                 <div id="content">
@@ -650,7 +652,7 @@ CSS新增部分
 
 首页表单部分CSS代码
 
-```
+``` css
 /* 表单部分 */
 #form{
     width: 100%;
@@ -696,7 +698,7 @@ CSS新增部分
 
 首页footer部分和底部部分HMTL代码
 
-```
+``` hmtl
 <!-- footer部分 -->
             <div id="footer">
                 <div id="content">
@@ -754,7 +756,7 @@ CSS新增部分
 
 首页footer部分和底部部分CSS代码
 
-```
+``` css
 /* footer部分 */
 #footer{
     background-color: #000000;
@@ -830,8 +832,3 @@ CSS新增部分
     margin-left: 10px;
 }
 ```
-
-
-
-
-

@@ -1,15 +1,17 @@
-### 课程的知识点
+# 课程说明
+
+## 课程的知识点
 
 * HTML：[http://www.w3school.com.cn/html/index.asp](http://www.w3school.com.cn/html/index.asp "w3school-HMTL教程")
 * CSS：[http://www.w3school.com.cn/css/index.asp](http://www.w3school.com.cn/css/index.asp "w3school-CSS教程")
 * JavaScript和JQuery：[http://www.w3school.com.cn/js/index.asp](http://www.w3school.com.cn/js/index.asp "w3school-JavaScript教程")
 
-### 开发工具
+## 开发工具
 
 * Visual Studio Code
 * Google Chrome
 
-### 浏览器（兼容性）
+## 浏览器（兼容性）
 
 * Google Chrome
 * Firefox
@@ -17,29 +19,29 @@
 * Safri
 * Opera
 
-### 内容
+## 内容
 
 * HTML整体结构
 
-```
+``` HTML
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
 </head>
 <body>
-	
+
 </body>
 </html>
 ```
 
 在body中添加内容：
 
-```
+``` HTML
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>第一个网页</title>       
+        <title>第一个网页</title>
     </head>
     <body>
         <p>段落1</p>
@@ -56,7 +58,7 @@
 
 * CSS内部样式
 
-```
+``` HTML
 <html>
     <head>
         <meta charset="utf-8">
@@ -96,6 +98,3 @@
     </body>
 </html>
 ```
-
-
-
